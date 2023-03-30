@@ -10,7 +10,7 @@ import commentsRouter from "./routes/commentRoute.js";
 
 const app = express();
 const port = 8000;
-app.use(cors());
+app.use(cors()); 
 app.use(morgan("tiny"));
 
 // parse application/x-www-form-urlencoded
